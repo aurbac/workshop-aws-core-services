@@ -1,4 +1,6 @@
-## 1. Create a VPC with two public and two private subnets
+# VPC Hands-On Lab
+
+## 1. Create a VPC from scratch
 
 1.1\. Open the Amazon VPC console at https://console.aws.amazon.com/vpc/.
 
@@ -42,3 +44,8 @@
 | ------:| -----------:| 
 | 10.1.0.0/16 | local | 
 | 0.0.0.0/0  | NAT Gateway (Select the only one) |
+
+## 2. Create a bastion instance
+
+**Bastion Hosts**: Including bastion hosts in your VPC environment enables you to securely connect to your Linux instances without exposing your environment to the Internet. After you set up your bastion hosts, you can access the other instances in your VPC through Secure Shell (SSH) connections on Linux. Bastion hosts are also configured with security groups to provide fine-grained ingress control.
+
