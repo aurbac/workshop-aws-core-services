@@ -1,4 +1,4 @@
-# VPC Hands-On Lab
+# Getting Started with VPC
 
 ## 1. Create a VPC from scratch
 
