@@ -14,6 +14,8 @@ Hello, this is a self-paced workshop designed to explore the AWS Core Services.
 
 5\. [Working with Elastic Block Store (EBS) volumes](https://github.com/aurbac/immersion-day-core-services/blob/master/tutorials/EBS_HOL.pdf "Amazon EBS")
 
-6\. [Getting Started with Amazon RDS](https://github.com/aurbac/immersion-day-core-services/blob/master/tutorials/RDS_HOL.pdf "Amazon RDS")
+6\. [Getting Started with Simple Storage Service](https://github.com/aurbac/immersion-day-core-services/blob/master/tutorials/S3HandsOnLab.pdf "Amazon S3")
+
+7\. [Getting Started with Amazon RDS](https://github.com/aurbac/immersion-day-core-services/blob/master/tutorials/RDS_HOL.pdf "Amazon RDS")
 
 
