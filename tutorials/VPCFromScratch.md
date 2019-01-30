@@ -80,7 +80,7 @@
 
 2.10\. In the Choose Instance Type tab, select the **t2.micro** instance size and click **Next**.
 
-2.11\. On the Configure Instance Details page, select your network **My VPC** created and the **Public Subnet 01**, for Auto-assign Public IP select **Enable**. Click **Next**.
+2.11\. On the Configure Instance Details page, select your network **My VPC** created and the **Public Subnet 01**, for Auto-assign Public IP select **Enable**, and for IAM Role select **EC2_S3ReadOnly**. Click **Next**.
 
 2.12\. On this page you have the ability to modify or add storage and disk drives to the instance. For this lab, we will simply accept the storage defaults and click **Next**.
 
@@ -94,3 +94,4 @@
 
 2.17\. Select the key pair that you created in the beginning of this lab from the drop-down and check the **"I acknowledge"** checkbox. Then click the **Launch Instances** button.
 
+Now you can try [connecting to Your Linux Instance from Windows Using PuTTY](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html).
