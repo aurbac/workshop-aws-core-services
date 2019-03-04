@@ -2,7 +2,7 @@
 
 Hello, this is a self-paced workshop designed to explore the AWS Core Services.
 
-In this workshop, you will build 3-tier application architecture that covers core services and best practices for Compute, Networking, Storage and Databases..
+In this workshop, you will build 2-tier application architecture that covers core services and best practices for Compute, Networking, Storage and Databases..
 
 See the diagram below for a depiction of the complete architecture.
 
