@@ -2,6 +2,14 @@
 
 Hello, this is a self-paced workshop designed to explore the AWS Core Services.
 
+In this workshop, you will build 3-tier application architecture that covers core services and best practices for Compute, Networking, Storage and Databases..
+
+See the diagram below for a depiction of the complete architecture.
+
+<img src="images/diagram-architecture.png" width="100%">
+
+## Modules
+
 1\. [Getting Started with Identity & Access Management](https://github.com/aurbac/immersion-day-core-services/blob/master/tutorials/IAMHandsOnLab.pdf "Amazon IAM")
 
 2\. [Getting Started with VPC](https://github.com/aurbac/immersion-day-core-services/blob/master/tutorials/VPCFromScratch.md "Amazon VPC")
