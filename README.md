@@ -10,6 +10,8 @@ See the diagram below for a depiction of the complete architecture.
 
 ## Modules
 
+This workshop is broken up into multiple modules. For building out your architecture, you must complete the following module in order before proceeding to the next:
+
 1\. [Getting Started with Identity & Access Management](https://github.com/aurbac/immersion-day-core-services/blob/master/tutorials/IAMHandsOnLab.pdf "Amazon IAM")
 
 2\. [Getting Started with VPC](https://github.com/aurbac/immersion-day-core-services/blob/master/tutorials/VPCFromScratch.md "Amazon VPC")
