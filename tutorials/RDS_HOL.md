@@ -28,7 +28,7 @@
 
 ## 2. Create a Subnet Group
 
-2.1\.	Sign into the AWS Management Console and open the Amazon RDS console at https://console.aws.amazon.com/rds.
+2.1\.	Open the Amazon RDS console at  https://console.aws.amazon.com/rds.
 
 2.2\.	Click on **Subnet groups** and click on **Create DB Subnet Group**.
 
@@ -46,7 +46,7 @@
 
 Now that our VPC security group and subnet group are ready, let’s configure and launch a MySQL RDS Instance.
 
-3.1\. Sign into the AWS Management Console and open the Amazon RDS console at https://console.aws.amazon.com/rds.
+3.1\. Open the Amazon RDS console at  https://console.aws.amazon.com/rds.
 
 3.2\. Click on **Create database**.
 
