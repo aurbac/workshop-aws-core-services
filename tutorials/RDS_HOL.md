@@ -102,7 +102,7 @@ Now that our VPC security group and subnet group are ready, let’s configure an
 
 **Note**: This may take up to 5 minutes as the database is being created and backed up, once is available you can continue.
 
-3.9\. Go to https://console.aws.amazon.com/rds, choose **Databases** and choose your database ****  
+3.9\. Go to https://console.aws.amazon.com/rds, choose **Databases** and choose your database **awsdb**  
 
 ![RDS List](../images/rds-list.png)
 
