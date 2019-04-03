@@ -52,7 +52,7 @@
 
 2.6\. The **Your VPCs** page displays your default VPC and the VPC that you just created. The VPC that you created is a nondefault VPC, therefore the **Default VPC** column displays **No**.
 
-**Note** - Copy the **VPC ID** from **My VPC**.
+**Note:** Copy the **VPC ID** from **My VPC**.
 
 ![Your VPCs](../images/vpcs.png)
 
@@ -77,4 +77,4 @@
 
 ![Subnets for the Public Route](../images/route-edit-subnets.png)
 
-2.12\. Now you have a VPC network with public and private subnets.
+**Great Job: You have successfully deployed a VPC network with public and private subnets!!!**

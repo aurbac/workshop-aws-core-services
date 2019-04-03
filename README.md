@@ -14,14 +14,8 @@ This workshop is broken up into multiple modules. For building out your architec
 
 1\. [Getting Started with Identity & Access Management](tutorials/IAMHandsOnLab.pdf "Amazon IAM")
 
-2\. [Getting Started with VPC](tutorials/VPCWizard.md "Amazon VPC")
+2\. [Getting Started with Amazon VPC](tutorials/VPCWizard.md "Amazon VPC")
 
-3\. [Getting Started with Linux on Amazon EC2](tutorials/EC2LinuxHandsOnLab.pdf "Amazon EC2")
-( -> [Reference Scripts](tutorials/EC2LinuxHandsOnLab.txt))
+3\. [Getting Started with Linux on Amazon EC2](tutorials/EC2LinuxHandsOnLab.md "Amazon EC2")
 
-4\. [Getting Started with Simple Storage Service](tutorials/S3HandsOnLab.pdf "Amazon S3")
-
-5\. [Working with Elastic Block Store (EBS) volumes](tutorials/EBS_HOL.pdf "Amazon EBS")
-( -> [Reference Scripts](tutorials/EBS_HOL.txt))
-
-6\. [Getting Started with Amazon RDS](tutorials/RDS_HOL.pdf "Amazon RDS")
+4\. [Getting Started with Amazon RDS](tutorials/RDS_HOL.md "Amazon RDS")
