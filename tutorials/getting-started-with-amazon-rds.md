@@ -104,7 +104,7 @@ We provided an example database table and sample code for creating a simple addr
 
 4.2\. Scroll down to the Connect section and check the value under **Endpoint**. Remember this because you will need it in a minute.
 
-4.3\. Navigate to the browser tab connected to web application you launched previously in [Getting Started with Linux on Amazon EC2]((EC2LinuxHandsOnLab.md "Amazon EC2")) lab (or open a new tab and reconnect to your web server’s URL) and click on **RDS**. You should see a prompt to enter the **DB Endpoint**, **username** (`awsuser`), **password** (`awspassword`) and **database** (`immersionday`) information you just created. Click the **Submit** button.
+4.3\. Navigate to the browser tab connected to web application you launched previously in **Getting Started with Linux on Amazon EC2** lab, click on **RDS**. You should see a prompt to enter the **DB Endpoint**, **username** (`awsuser`), **password** (`awspassword`) and **database** (`immersionday`) information you just created. Click the **Submit** button.
 
 ![RDS Web Settings](images/rds-web-settings.png)
 
