@@ -18,11 +18,11 @@
 
 2.2\. In the navigation pane, choose **VPC Dashboard**. From the dashboard, choose **Launch VPC Wizard**.
 
-![Launch VPC Wizard](../images/launch-vpc-wizard.png)
+![Launch VPC Wizard](images/launch-vpc-wizard.png)
 
 2.3\. Choose the second option, **VPC with Public and Private Subnets**, and then choose **Select**.
 
-![Select a VPC Configuration](../images/select-wizard.png)
+![Select a VPC Configuration](images/select-wizard.png)
 
 2.4\. On the configuration page, enter the following information and choose **Create VPC**.
 
@@ -46,7 +46,7 @@
 
 •	**Enable DNS hostnames:** `Yes`
 
-![Select a VPC Configuration](../images/public-private-wizard.png)
+![Select a VPC Configuration](images/public-private-wizard.png)
 
 2.5\. A status window shows the work in progress. When the work completes, choose **OK** to close the status window.
 
@@ -54,7 +54,7 @@
 
 **Note:** Copy the **VPC ID** from **My VPC**.
 
-![Your VPCs](../images/vpcs.png)
+![Your VPCs](images/vpcs.png)
 
 2.7\. In the navigation pane, choose **Subnets**, apply a filter using the VPC ID that you copied earlier and choose **Create subnet**, we are going to create two more subnets with the configuration settings as follows:
 
@@ -65,16 +65,16 @@
 
 2.8\. With the filter applied with your VPC ID, you will see the four subnets, two publics and two privates.
 
-![Your Subnets](../images/subnets.png)
+![Your Subnets](images/subnets.png)
 
 2.9\. In the navigation pane, choose **Route Tables** and apply a filter using the VPC ID that you copied earlier, one of your route tables for the **Main** column displays **Yes**, you can edit the names by clicking on the pencil, for the **Main** route table type `Private Route` and for the other one type `Public Route`. 
 
-![Route Tables](../images/route-tables.png)
+![Route Tables](images/route-tables.png)
 
 2.10\. Select your **Public Route**, click on **Subnet Associations** and click on **Edit subnet associations**.
 
 2.11\. Select the subnets **10.1.0.0/24** (Public Subnet 01) and **10.1.1.0/24** (Public Subnet 02) and click on **Save**.
 
-![Subnets for the Public Route](../images/route-edit-subnets.png)
+![Subnets for the Public Route](images/route-edit-subnets.png)
 
 **Great Job: You have successfully deployed a VPC network with public and private subnets!!!**

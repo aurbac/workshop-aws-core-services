@@ -1,6 +1,0 @@
-ssh -i ~/privatekey.pem ubuntu@ipaddress
-
-sudo -su
-mkfs.ext4 /dev/xvdf
-mkdir ~/ebstest; cd ~/ebstest; sudo mount /dev/xvdf ~/ebstest
-while [ true ]; do uuid=$(uuidgen); echo $uuid | tee $uuid.json > /dev/null; done;

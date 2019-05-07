@@ -1,0 +1,43 @@
+# Getting Started with Identity & Access Management
+
+## 1. Create an IAM Group
+
+1.1\. Open the IAM console at https://console.aws.amazon.com/iam/.
+
+1.2\. In the navigation pane, click **Groups** and then click **Create New Group**.
+
+1.3\. In the **Group Name** box, type `Administrators` as the name of the group and then click **Next Step**.
+
+![IAM Group Name](images/iam-group-name.png)
+
+1.4\. In the list of policies, select the check box for **AdministratorAccess** policy that you want to apply to all members of the group. Then click **Next Step**.
+
+![IAM Group Policy](images/iam-group-policy.png)
+
+1.5\. Click **Create Group**.
+
+![IAM Group Create](images/iam-group-create.png)
+
+## 2. Create an IAM User
+
+2.1\. Open the IAM console at https://console.aws.amazon.com/iam/.
+
+2.2\. In the navigation pane, choose **Users** and then choose **Add user**.
+
+2.3\. In the **User Name** box, type `Admin1` as the name of the user, for **Access type** select the check box **AWS Management Console access** and then click **Next: Permissions**.
+
+![IAM User Name](images/iam-user-name.png)
+
+2.4\. On the **Set permissions** page, select the check box for **Administrators** group and then click **Next: Tags**.
+
+![IAM User Select Group](images/iam-user-select-group.png)
+
+2.5\. Choose **Next: Review** to see all of the choices you made up to this point. When you are ready to proceed, choose **Create user**.
+
+![IAM User Create](images/iam-user-create.png)
+
+2.6\. To save the credentials, choose **Download .csv** and then save the file to a safe location, and **Close**.
+
+![IAM User Download](images/iam-user-download.png)
+
+2.7\. Use the new credentials to get into your AWS Console.
