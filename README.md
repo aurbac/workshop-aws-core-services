@@ -14,7 +14,7 @@ Visit the portal to get started: http://aws-core-services.ws.kabits.com
 
 ## Modules
 
-This workshop is broken up into multiple modules. you must complete the following modules in **US East (N. Virginia)** region in order before proceeding to the next:
+You must complete the following modules in **US East (N. Virginia)** region in order before proceeding to the next:
 
 1\. [Getting Started with Identity & Access Management](tutorials/getting-started-with-iam.md "Amazon IAM")
 
