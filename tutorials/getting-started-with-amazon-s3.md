@@ -22,7 +22,7 @@
 
 2.1\.	Open the Amazon S3 console at https://console.aws.amazon.com/s3/.
 
-2.2\.	In the **Bucket name** list, choose the name of the bucket that you created **<your-name>-website**.
+2.2\.	In the **Bucket name** list, choose the name of the bucket that you created **`<your-name>-website`**.
 
 2.3\.	Choose **Permissions**.
 
@@ -59,7 +59,7 @@
 
 ![Cloud9 Env](images/cloud9-env.png)
 
-3.7\. Inside the bash terminal execute the following commands, change **<you-name>-website** with your bucket name.
+3.7\. Inside the bash terminal execute the following commands, change **`<you-name>-website`** with your bucket name.
 
 ```console
 git clone https://github.com/aurbac/static-website.git
@@ -70,7 +70,7 @@ aws s3 cp static-website/ s3://<you-name>-website/ --recursive --exclude ".git/*
 
 4.1\. Open the Amazon S3 console at https://console.aws.amazon.com/s3/.
 
-4.2\. In the **Bucket name** list, choose the name of the bucket that you created **<your-name>-website**.
+4.2\. In the **Bucket name** list, choose the name of the bucket that you created **`<your-name>-website`**.
 
 4.3\. Choose **Properties**.
 
@@ -78,10 +78,10 @@ aws s3 cp static-website/ s3://<you-name>-website/ --recursive --exclude ".git/*
 
 ![S3 Website](images/s3-website.png)
 
-4.5\. Choose **Use this bucket to host** and for **Index document** type `index.html`, copy the **Endpoint** and click **Save**.
+4.5\. Choose **Use this bucket to host a website** and for **Index document** type `index.html`, copy the **Endpoint** and click **Save**.
 
 ![S3 Website Conf](images/s3-website-conf.png)
 
-4.6\. Open a new browser tab and browse the WebSite by entering Endpoint. You should see a website that looks like the following:
+4.6\. Open a new browser tab and browse the WebSite by entering the Endpoint copied. You should see a website that looks like the following:
 
 ![S3 Website](images/s3-website-live.png)
