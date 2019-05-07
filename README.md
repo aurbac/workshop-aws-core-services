@@ -18,4 +18,6 @@ This workshop is broken up into multiple modules. For building out your architec
 
 3\. [Getting Started with Linux on Amazon EC2](tutorials/getting-started-with-linux-on-amazon-ec2.md "Amazon EC2")
 
-4\. [Getting Started with Amazon RDS](tutorials/getting-started-with-amazon-rds.md "Amazon RDS")
+4\. [Getting Started with Amazon S3](tutorials/getting-started-with-amazon-s3.md "Amazon S3")
+
+5\. [Getting Started with Amazon RDS](tutorials/getting-started-with-amazon-rds.md "Amazon RDS")
