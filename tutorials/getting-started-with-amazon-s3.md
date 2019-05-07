@@ -85,3 +85,5 @@ aws s3 cp static-website/ s3://<you-name>-website/ --recursive --exclude ".git/*
 4.6\. Open a new browser tab and browse the WebSite by entering the Endpoint copied. You should see a website that looks like the following:
 
 ![S3 Website](images/s3-website-live.png)
+
+**Great Job! You have deployed a static website!!**
