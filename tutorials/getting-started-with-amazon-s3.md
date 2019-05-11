@@ -59,11 +59,15 @@
 
 ![Cloud9 Env](images/cloud9-env.png)
 
-3.7\. Inside the bash terminal execute the following commands, change **`<you-name>-website`** with your bucket name.
+3.7\. Inside the bash terminal execute the following commands:
 
+* Download static website from github.
 ```console
 git clone https://github.com/aurbac/static-website.git
-aws s3 cp static-website/ s3://<you-name>-website/ --recursive --exclude ".git/*" --acl public-read
+```
+* Upload static website, change **`<your-name>-website`** with your bucket name.
+```console
+aws s3 cp static-website/ s3://<your-name>-website/ --recursive --exclude ".git/*" --acl public-read
 ```
 
 ## 4. Configure the S3 bucket for static website hosting
@@ -82,7 +86,7 @@ aws s3 cp static-website/ s3://<you-name>-website/ --recursive --exclude ".git/*
 
 ![S3 Website Conf](images/s3-website-conf.png)
 
-4.6\. Open a new browser tab and browse the WebSite by entering the Endpoint copied. You should see a website that looks like the following:
+4.6\. Open a new browser tab and browse the static website by entering the Endpoint copied. You should see a website that looks like the following:
 
 ![S3 Website](images/s3-website-live.png)
 
