@@ -1,0 +1,46 @@
+# Project information
+
+site_name: AWS Core Services
+site_description: 'In this workshop, you will build 2-tier application architecture and host a static website, covering the core services and best practices for Compute, Networking, Storage and Databases.'
+#site_author: 'beralfon@amazon.com'
+site_url: 'http://aws-core-services.ws.kabits.com'
+
+# Repository
+#repo_name: 'aws-samples/aws-security-workshops'
+repo_url: 'https://github.com/aurbac/immersion-day-core-services'
+
+google_analytics: ['UA-55517703-2', 'aws-core-services.ws.kabits.com']
+
+# Copyright
+copyright: '&copy; 2019 - AURBAC '
+
+extra:
+  social:
+    - type: 'home'
+      link: 'http://aws-core-services.ws.kabits.com'
+    - type: 'twitter'
+      link: 'https://twitter.com/aurbac'
+
+nav:
+    - Home: index.md
+    - Modules: 
+      - Getting Started with Identity & Access Management: getting-started-with-iam.md
+      - Getting Started with Amazon VPC: getting-started-with-amazon-vpc.md
+      - Getting Started with Linux on Amazon EC2: getting-started-with-linux-on-amazon-ec2.md
+      - Getting Started with Amazon S3: getting-started-with-amazon-s3.md
+      - Getting Started with Amazon RDS: getting-started-with-amazon-rds.md
+theme:
+  name: 'material'
+  palette:
+    primary: 'cyan'
+    accent: 'cyan'
+  logo:
+    icon: 'cloud_done'
+markdown_extensions:
+  - codehilite:
+      linenums: true
+  - pymdownx.mark
+  - admonition
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.magiclink
