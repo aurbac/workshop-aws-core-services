@@ -1,10 +1,8 @@
 # Getting Started with Linux on Amazon EC2
 
-This lab will walk you through launching, configuring, and customizing an EC2 web server using the AWS Management Console.
-
 ## 1. Create a new Key Pair
 
-In this lab, you will need to create an EC2 instance using an SSH keypair. The following steps outline creating a unique SSH keypair for you to use in this lab.
+You will need to create an EC2 instance using an SSH keypair. The following steps outline creating a unique SSH keypair for you to use.
 
 1.1\. Sign into the AWS Management Console and open the Amazon EC2 console at https://console.aws.amazon.com/ec2.
 
@@ -22,11 +20,12 @@ In this lab, you will need to create an EC2 instance using an SSH keypair. The f
 
 1.7\. Remember the full path to the file .pem file you just downloaded.
 
-**Note:** You will use the Key Pair you just created to manage your EC2 instances for the rest of the lab.
+!!! info
+    You will use the Key Pair you just created to manage your EC2 instance.
 
 ## 2. Launch a Web Server Instance
 
-In this example we will launch an Amazon Linux 2 instance, bootstrap Apache/PHP, and install a basic web page that will display information about our instance.
+We will launch an Amazon Linux 2 instance, bootstrap Apache/PHP, and install a basic web page that will display information about our instance.
 
 2.1\. Sign into the AWS Management Console and open the Amazon EC2 console at https://console.aws.amazon.com/ec2.
 

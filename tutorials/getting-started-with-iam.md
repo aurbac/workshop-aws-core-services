@@ -40,4 +40,5 @@
 
 ![IAM User Download](images/iam-user-download.png)
 
-2.7\. Use the new credentials to get into your AWS Console.
+!!! info
+    Open the csv file and use the new credentials to get into your AWS Console with administrator access.

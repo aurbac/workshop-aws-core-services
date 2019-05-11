@@ -23,7 +23,9 @@
 
 1.7\. Choose **Save rules** and **Close**.
 
-## 2. Create a Subnet Group
+## 2. Create a DB Subnet Group
+
+You will create a DB subnet group that is a collection of subnets (private subnets) designated for your DB instance.
 
 2.1\.	Open the Amazon RDS console at  https://console.aws.amazon.com/rds.
 
@@ -86,7 +88,8 @@ Now that our VPC security group and subnet group are ready, let’s configure an
 
 3.8\. Choose **Create database** and **View DB instance details**. In the RDS Dashboard, monitor your new DB instance until the status changes from “creating” to “backing up” to “available”. 
 
-**Note**: This may take up to 5 minutes as the database is being created and backed up, once is available you can continue.
+!!! info
+    This may take up to 5 minutes as the database is being created and backed up, once is available you can continue.
 
 3.9\. Go to https://console.aws.amazon.com/rds, choose **Databases** and choose your database **awsdb**  
 
