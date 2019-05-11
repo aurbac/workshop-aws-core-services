@@ -14,4 +14,4 @@ In order to complete these workshops you'll need a valid active AWS Account with
 
 **If the resources that you use for this workshop are left undeleted you will incur charges on your AWS account.**
 
-This workshop is broken up into multiple modules. you must complete the following modules in **US East (N. Virginia)** region in order before proceeding to the next.
+You must complete the following modules in **US East (N. Virginia)** region in order before proceeding to the next.
