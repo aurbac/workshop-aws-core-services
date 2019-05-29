@@ -30,8 +30,9 @@
 
 2.5\.	Uncheck the following two options:
 
-* **Block new public ACLs and uploading public objects (Recommended).**
-* **Remove public access granted through public ACLs (Recommended).**
+* **Block all public access**
+  * **Block public access to buckets and objects granted through new access control lists (ACLs)**
+  * **Block public access to buckets and objects granted through any access control lists (ACLs)**
 
 ![S3 Permissions](images/s3-permissions.png)
 
