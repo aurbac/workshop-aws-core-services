@@ -24,11 +24,11 @@
 
 2.2\.	In the **Bucket name** list, choose the name of the bucket that you created **`<your-name>-website`**.
 
-2.3\.	Choose **Permissions**.
+2.3\.	Choose **Permissions** and choose **Edit** to change the public access settings for the bucket.
 
-2.4\.	Choose **Edit** to change the public access settings for the bucket.
+![S3 Permissions Edit](images/s3-permissions-edit.png)
 
-2.5\.	Uncheck the following options:
+2.4\.	Uncheck the following options:
 
 * **Block all public access**
 
@@ -37,9 +37,9 @@
 
 ![S3 Permissions](images/s3-permissions.png)
 
-2.6\.	Choose **Save**.
+2.5\.	Choose **Save**.
 
-2.7\.	When you're asked for confirmation, enter `confirm`. Then choose **Confirm** to save your changes.
+2.6\.	When you're asked for confirmation, enter `confirm`. Then choose **Confirm** to save your changes.
 
 ## 3. Create a Cloud9 instance to upload your static Website
 
