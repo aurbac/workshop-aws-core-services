@@ -28,11 +28,12 @@
 
 2.4\.	Choose **Edit** to change the public access settings for the bucket.
 
-2.5\.	Uncheck the following two options:
+2.5\.	Uncheck the following options:
 
 * **Block all public access**
-  * **Block public access to buckets and objects granted through new access control lists (ACLs)**
-  * **Block public access to buckets and objects granted through any access control lists (ACLs)**
+
+    * **Block public access to buckets and objects granted through new access control lists (ACLs)**
+    * **Block public access to buckets and objects granted through any access control lists (ACLs)**
 
 ![S3 Permissions](images/s3-permissions.png)
 
