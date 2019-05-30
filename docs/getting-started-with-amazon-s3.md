@@ -28,7 +28,7 @@
 
 ![S3 Permissions Edit](images/s3-permissions-edit.png)
 
-2.4\.	Uncheck the following options:
+2.4\.	Uncheck the following options and Choose **Save**.
 
 * **Block all public access**
 
@@ -37,9 +37,7 @@
 
 ![S3 Permissions](images/s3-permissions.png)
 
-2.5\.	Choose **Save**.
-
-2.6\.	When you're asked for confirmation, enter `confirm`. Then choose **Confirm** to save your changes.
+2.5\.	When you're asked for confirmation, enter `confirm`. Then choose **Confirm** to save your changes.
 
 ## 3. Create a Cloud9 instance to upload your static Website
 
