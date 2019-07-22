@@ -16,11 +16,11 @@ You will need to create an EC2 instance using an SSH keypair. The following step
 
 1.4\. To create a new SSH key pair, click the **Create Key Pair** button at the top of the browser window.
 
-1.5\. In the resulting pop up window, type [First Name]-[Last Name]-ImmersionDay into the **Key Pair Name:** text box and click **Create**.
+1.5\. In the resulting pop up window, type `my-private-key` into the **Key Pair Name:** text box and click **Create**.
 
 ![Key Pair](images/ec2-key-pair.png)
 
-1.6\. The page will download the file "[Your-Name]-ImmersionDay.pem" to the local drive. Follow the browser instructions to save the file to the default download location.
+1.6\. The page will download the file ***my-private-key.pem** to the local drive. Follow the browser instructions to save the file to the default download location.
 
 1.7\. Remember the full path to the file .pem file you just downloaded.
 
@@ -74,7 +74,7 @@ https://s3.amazonaws.com/immersionday-labs/bootstrap.sh
 
 ![Launch Instances](images/ec2-select-key.png)
 
-2.13\. Click the **View Instances** button in the lower righthand portion of the screen to view the list of EC2 instances. Once your instance has launched, you will see your Web Server as well as the Availability Zone the instance is in, and the publicly routable DNS name.
+2.13\. Scroll down and click the **View Instances** button in the lower righthand portion of the screen to view the list of EC2 instances. Once your instance has launched, you will see your Web Server as well as the Availability Zone the instance is in, and the publicly routable DNS name.
 
 2.14\. Click the checkbox next to your web server to view details about this EC2 instance.
 

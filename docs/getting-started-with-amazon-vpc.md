@@ -22,7 +22,7 @@
 
 2.1\. Open the Amazon VPC console at https://console.aws.amazon.com/vpc/.
 
-2.2\. In the navigation pane, choose **VPC Dashboard**. From the dashboard, choose **Launch VPC Wizard**.
+2.2\. From the **VPC Dashboard** choose **Launch VPC Wizard**.
 
 ![Launch VPC Wizard](images/launch-vpc-wizard.png)
 

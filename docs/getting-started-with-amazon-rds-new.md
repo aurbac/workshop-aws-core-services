@@ -59,53 +59,52 @@ Now that our VPC security group and subnet group are ready, let’s configure an
 
 ![RDS Create Database](images/rds-launch.png)
 
-3.3\. We will be using a MySQL database, so choose **MySQL** from the available engines.
+3.3\. We will be using a MySQL database, so choose **MySQL** from the **Engine Options**, scroll down and in **Templates** section select **Free tier**.
 
-3.4\. Click **Next**.
+![RDS Engine](images/rds-engine-new.png)
 
-![RDS Engine](images/rds-engine.png)
+3.4\. Scroll down, for the **Settings** section fill out with the following information:
 
-3.5\. Check **Dev/Test - MySQL** for the Use Case, at the bottom of the page, and then click **Next**.
-
-![RDS Use Case](images/rds-use-case.png)
-
-3.6\. Fill out the DB Instance details with the following information and click **Next**:
-
-* **DB engine version:** `Use the default engine version`
-* **DB Instance class:** `db.t2.micro`
-* **Storage type:** `General Purpose (SSD)`
-* **Allocated Storage:** `20 GB`
 * **DB instance identifier:** `awsdb`
 * **Master username:** `awsuser`
 * **Master Password:** `awspassword`
+* **Confirm Password:** `awspassword`
 
-![RDS Config](images/rds-config-1.png)
+![RDS Settings](images/rds-settings-new.png)
 
-![RDS Config](images/rds-config-2.png)
+3.5\. Scroll down, for the **DB instance size** and **Storage** sections leave the values as default.
 
-3.7\. In **Configure Advanced Settings**, fill out Network & Security with the following information:
+3.6\. Scroll down, for the **Connectivity** section select your **My VPC** and click on **Additional connectivity configuration**.
 
-* **Virtual Private Cloud (VPC):** `My VPC`
+![RDS Connectivity](images/rds-connectivity-new.png)
+
+3.7\. Scroll down and for the **Additional connectivity configuration** section select as follows:
+
 * **Subnet group:** `privatedbgroup`
-* **Public accessibility:** `No`
+* **Publicly accessible:** `No`
+* **VPC security groups:** Select **Choose existing**, then select **immersion-day-db** and remove the **default** security group.
 * **Availability zone:** `No Preference`
-* **VPC security groups:** Select **Choose existing VPC security groups**, then pick **immersion-day-db**, remove the **default** security group.
-* **Database nema:** `immersionday`.
 
-![RDS VPC](images/rds-vpc.png)
+![RDS Additional](images/rds-additional-conf-new.png)
 
-3.8\. Choose **Create database** and **View DB instance details**. In the RDS Dashboard, monitor your new DB instance until the status changes from “**Creating**” to “**Backing-up**” to “**Available**”.
+3.8\. Scroll down and click on **Additional configuration**, fill out as follows:
+
+* **Initial database name:** `immersionday`.
+
+![RDS Additional](images/rds-addtional-configuration-name.png)
+
+3.9\. Scroll down and choose **Create database**. In the RDS Dashboard, monitor your new DB instance until the status changes from “**Creating**” to “**Backing-up**” to “**Available**”.
 
 !!! info
     This may take up to 5 minutes as the database is being created and backed up, once is in **Available** status you can continue.
 
 ![RDS Status](images/rds-status.png)
 
-3.9\. Choose your database **awsdb**  
+3.10\. Choose your database **awsdb**  
 
 ![RDS List](images/rds-list.png)
 
-3.10\. From the **Connectivity & security** description, copy the **Endpoint** once is available, you will use it in the next section.
+3.11\. From the **Connectivity & security** description, copy the **Endpoint** once is available, you will use it in the next section.
 
 ![RDS Connectivity & security](images/rds-connectivity.png)
 
