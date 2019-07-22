@@ -1,5 +1,9 @@
 # Getting Started with Amazon VPC
 
+[!embed?max_width=1200](https://www.youtube.com/watch?v=t7keOHhYYE0)
+
+[Amazon VPC](https://aws.amazon.com/vpc/) lets you provision a logically isolated section of the Amazon Web Services (AWS) cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address ranges, creation of subnets, and configuration of route tables and network gateways.
+
 ## 1. Create an Elastic IP for the NAT Gateway
 
 1.1\. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2/.

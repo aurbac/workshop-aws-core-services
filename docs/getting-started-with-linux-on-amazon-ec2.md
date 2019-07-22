@@ -1,5 +1,9 @@
 # Getting Started with Linux on Amazon EC2
 
+[!embed?max_width=1200](https://www.youtube.com/watch?v=TsRBftzZsQo)
+
+[Amazon Elastic Compute Cloud (Amazon EC2)](https://aws.amazon.com/ec2/) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+
 ## 1. Create a new Key Pair
 
 You will need to create an EC2 instance using an SSH keypair. The following steps outline creating a unique SSH keypair for you to use.

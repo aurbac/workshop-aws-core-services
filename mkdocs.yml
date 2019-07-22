@@ -23,11 +23,11 @@ extra:
 
 nav:
     - Home: index.md
-    - Modules: 
-      - Getting Started with Identity & Access Management: getting-started-with-iam.md
+    - Identity & Access Management: getting-started-with-iam.md
+    - Publish a Static WebSite: getting-started-with-amazon-s3.md
+    - Two-tier Application (Linux): 
       - Getting Started with Amazon VPC: getting-started-with-amazon-vpc.md
       - Getting Started with Linux on Amazon EC2: getting-started-with-linux-on-amazon-ec2.md
-      - Getting Started with Amazon S3: getting-started-with-amazon-s3.md
       - Getting Started with Amazon RDS: getting-started-with-amazon-rds.md
 theme:
   name: 'material'
@@ -39,8 +39,36 @@ theme:
 markdown_extensions:
   - codehilite:
       linenums: true
-  - pymdownx.mark
   - admonition
+  - markdown.extensions.admonition
+  - markdown.extensions.sane_lists
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.def_list
+  - markdown.extensions.abbr
+  - markdown.extensions.tables
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.toc:
+      permalink: True
+      separator: "_"
+  - pymdownx.extra
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pyembed.markdown
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.magiclink
+

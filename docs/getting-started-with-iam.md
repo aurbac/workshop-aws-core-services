@@ -1,6 +1,13 @@
 # Getting Started with Identity & Access Management
 
+[!embed?max_width=1200](https://www.youtube.com/watch?v=Ul6FW4UANGc)
+
+[AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. 
+
+
 ## 1. Create an IAM Group
+
+An IAM group is a collection of users. Groups are often based on job function or role. They allow you to manage permissions by applying policies to each group rather than individual users.
 
 1.1\. Open the IAM console at https://console.aws.amazon.com/iam/.
 
@@ -19,6 +26,8 @@
 ![IAM Group Create](images/iam-group-create.png)
 
 ## 2. Create an IAM User
+
+A user is associated with permanent credentials and has permissions based off of policies attached directly to the user or policies attached to a group to which the user belongs.
 
 2.1\. Open the IAM console at https://console.aws.amazon.com/iam/.
 

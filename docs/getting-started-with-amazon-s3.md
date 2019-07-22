@@ -1,4 +1,8 @@
-# Getting Started with Amazon S3
+# Publish a Static WebSite with Amazon S3
+
+[!embed?max_width=1200](https://www.youtube.com/watch?v=_I14_sXHO8U)
+
+[Amazon Simple Storage Service](https://aws.amazon.com/s3/) is storage for the Internet. It is designed to make web-scale computing easier for developers and also you can host a Static Website in an Amazon S3 bucket.
 
 ## 1. Create an Amazon S3 bucket
 
@@ -40,6 +44,8 @@
 2.5\.	When you're asked for confirmation, enter `confirm`. Then choose **Confirm** to save your changes.
 
 ## 3. Create a Cloud9 instance to upload your static Website
+
+[AWS Cloud9](https://aws.amazon.com/cloud9/) is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It combines the rich code editing features of an IDE such as code completion, hinting, and step-through debugging, with access to a full Linux server for running and storing code.
 
 3.1\. Open the AWS Cloud9 console at https://console.aws.amazon.com/cloud9/.
 

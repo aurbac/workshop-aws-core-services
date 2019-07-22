@@ -1,5 +1,9 @@
 # Getting Started with Amazon RDS
 
+[!embed?max_width=1200](https://www.youtube.com/watch?v=yjH10T3Miag)
+
+[Amazon Relational Database Service (Amazon RDS)](https://aws.amazon.com/rds/) is a managed service that makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity, while managing time-consuming database administration tasks, freeing you up to focus on your applications and business.
+
 ## 1. Create the Security Group
 
 1.1\. Open the Amazon VPC console at https://console.aws.amazon.com/vpc/.
