@@ -29,4 +29,4 @@ You must complete the following modules in **US East (N. Virginia)** region in o
     - [Getting Started with Amazon VPC](docs/getting-started-with-amazon-vpc.md "Amazon VPC")
     - [Getting Started with Linux on Amazon EC2](docs/getting-started-with-linux-on-amazon-ec2.md "Amazon EC2")
     - [Getting Started with Amazon RDS](docs/getting-started-with-amazon-rds-new.md "Amazon RDS")
-    - [Getting Started with Amazon RDS](docs/getting-started-with-amazon-rds-new.md "Amazon RDS")
+    - [Getting Started with Amazon RDS (Previous interface)](docs/getting-started-with-amazon-rds.md "Amazon RDS")
