@@ -8,6 +8,7 @@ phases:
       - pip install --upgrade awscli
       - pip install mkdocs
       - pip install mkdocs-material
+      - pip install pyembed-markdown
   pre_build:
     commands:
       # Discover and run unit tests in the 'tests' directory
