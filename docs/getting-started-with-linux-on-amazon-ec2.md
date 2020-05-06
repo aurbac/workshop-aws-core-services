@@ -52,7 +52,7 @@ With the following steps you will create a unique SSH keypair to connect to your
 
 We will launch an Amazon Linux 2 instance, bootstrap Apache/PHP, and install a basic web page that will display information about our instance.
 
-3.1\. Sign into the AWS Management Console and open the Amazon EC2 console at https://console.aws.amazon.com/ec2.
+3.1\. Open the Amazon EC2 console at https://console.aws.amazon.com/ec2.
 
 3.2\. Click on **Launch Instance**.
 
@@ -116,5 +116,24 @@ https://s3.amazonaws.com/immersionday-labs/bootstrap.sh
 You should see a website that looks like the following:
 
 ![Web Site](images/ec2-web.png)
+
+## 5. Connect to the shell of you Linux EC2 instance
+
+You can use the key pair to connect to your Linux EC2 instance by SHH client, for this purpose we are going to use [AWS Systems Manager](https://aws.amazon.com/systems-manager/) using [Session Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html).
+Systems Manager Gain Operational Insight and Take Action on AWS Resources. We are going to take a look a just one of seven capabilities of Systems Manager.
+
+5.1\. Open de **AWS Systems Manager** console at https://console.aws.amazon.com/systems-manager/. 
+
+5.2\. From the menu on the left, scroll down and select **Session Manager**. Session Manager allows us to use IAM roles and policies to determine who has console access without having to manage SSH keys for our instances. In the main pane, click the **Start session** button. 
+
+![Session Manager](images/sm-home.png)
+
+5.3\. Select the radio button next to the instance you wish to log into.
+
+![Session Start](images/sm-start.png)
+
+5.4\. You will now receive a Bash shell prompt for that instance.
+
+![Session Bash](images/sm-bash.png)
 
 **Great Job! You have deployed a server and launched a web site in a matter of minutes!!**
