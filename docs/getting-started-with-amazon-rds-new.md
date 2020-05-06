@@ -14,6 +14,8 @@
 
 1.4\. For the **Security group name** and **Description** type `immersion-day-db`. For **VPC** select your VPC ID **My VPC**, and choose **Create** and **Close**.
 
+![RDS Create SG](images/vpc-sg-db.png)
+
 1.5\. Select the security group **immersion-day-db**, on the **Inbound Rules** tab, choose **Edit rules**.
 
 ![RDS Select SG](images/rds-select-sg.png)
@@ -23,7 +25,7 @@
 * **Type:** `MYSQL/Aurora`
 * **Protocol:** `TCP`
 * **Port Range:** `3306`
-* **Source:** `Custom sg-XXXXXXX` Type `sg-` and select the security group ID for **Your Name Web Tier**
+* **Source:** `Custom sg-XXXXXXX` Type `sg-` and select the security group ID for **Web Tier**
 
 ![RDS SG](images/rds-sg-create.png)
 
@@ -33,19 +35,17 @@
 
 You will create a DB subnet group that is a collection of subnets (private subnets) designated for your DB instance.
 
-2.1\.	Open the Amazon RDS console at  https://console.aws.amazon.com/rds.
+2.1\. Open the Amazon RDS console at  https://console.aws.amazon.com/rds.
 
-2.2\.	In the navigation pane, choose **Subnet groups** and click on **Create DB Subnet Group**.
+2.2\. In the navigation pane, choose **Subnet groups** and click on **Create DB Subnet Group**.
 
 ![RDS Create Subnet Group](images/rds-choose-subnet-groups.png)
 
-2.3\.	For **Name** and **Description** type `PrivateDBGroup`.
+2.3\. For **Name** and **Description** type `PrivateDBGroup`.
 
-2.4\.	For the VPC select **My VPC**.
+2.4\. For the VPC select **My VPC**.
 
-2.5\.	In **Add subnets** section, select the Private Subnets, from **us-east-1a** select **10.1.2.0/24** (Private Subnet 01), choose **Add subnet** and for **us-east-1b** select **10.1.3.0/24** (Private Subnet 02), choose **Add subnet**.
-
-2.6\.	Choose **Create**.
+2.5\. In **Add subnets** section, select the Private Subnets, from **us-east-1a** select **10.0.2.0/24** (Private Subnet 01), and for **us-east-1b** select **10.0.3.0/24** (Private Subnet 02). Choose **Create**.
 
 ![RDS Subnet Group](images/rds-subnet-group.png)
 
@@ -59,7 +59,7 @@ Now that our VPC security group and subnet group are ready, let’s configure an
 
 ![RDS Create Database](images/rds-launch.png)
 
-3.3\. We will be using a MySQL database, so choose **MySQL** from the **Engine Options**, scroll down and in **Templates** section select **Free tier**.
+3.3\. We will be using a **Standard Create** method, choose **MySQL** from the **Engine Options**, scroll down and in **Templates** section select **Free tier**.
 
 ![RDS Engine](images/rds-engine-new.png)
 

@@ -31,7 +31,6 @@ nav:
       - Getting Started with Amazon VPC: getting-started-with-amazon-vpc.md
       - Getting Started with Linux on Amazon EC2: getting-started-with-linux-on-amazon-ec2.md
       - Getting Started with Amazon RDS: getting-started-with-amazon-rds-new.md
-      - Getting Started with Amazon RDS (Previous interface): getting-started-with-amazon-rds.md
 
 theme:
   name: material

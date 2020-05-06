@@ -30,6 +30,8 @@ With the following steps you will create a unique SSH keypair to connect to your
 
 ## 2. Create an IAM Role for your EC2 instance
 
+We are going to create an IAM role and attach it to an instance during or after launch. With this we will have permissions for AWS Systems Manager to use Session Manager and have access to the Linux EC2 instance.
+
 2.1\. Open the IAM console at https://console.aws.amazon.com/iam/.
 
 2.2\. In the navigation pane, choose **Roles** and then choose **Create role**.
@@ -119,10 +121,12 @@ You should see a website that looks like the following:
 
 ## 5. Connect to the shell of you Linux EC2 instance
 
+[!embed?max_width=1200](https://www.youtube.com/watch?v=MK4ZoCs-muo)
+
 You can use the key pair to connect to your Linux EC2 instance by SHH client, for this purpose we are going to use [AWS Systems Manager](https://aws.amazon.com/systems-manager/) using [Session Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html).
 Systems Manager Gain Operational Insight and Take Action on AWS Resources. We are going to take a look a just one of seven capabilities of Systems Manager.
 
-5.1\. Open de **AWS Systems Manager** console at https://console.aws.amazon.com/systems-manager/. 
+5.1\. Open de AWS Systems Manager console at https://console.aws.amazon.com/systems-manager/. 
 
 5.2\. From the menu on the left, scroll down and select **Session Manager**. Session Manager allows us to use IAM roles and policies to determine who has console access without having to manage SSH keys for our instances. In the main pane, click the **Start session** button. 
 
