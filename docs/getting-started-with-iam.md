@@ -33,7 +33,7 @@ A user is associated with permanent credentials and has permissions based off of
 
 2.2\. In the navigation pane, choose **Users** and then choose **Add user**.
 
-2.3\. In the **User Name** box, type `Admin1` as the name of the user, for **Access type** select the check box **AWS Management Console access** and then click **Next: Permissions**.
+2.3\. In the **User Name** box, type `Administrator` as the name of the user, for **Access type** select the check box **AWS Management Console access** and then click **Next: Permissions**.
 
 ![IAM User Name](images/iam-user-name.png)
 
@@ -41,11 +41,13 @@ A user is associated with permanent credentials and has permissions based off of
 
 ![IAM User Select Group](images/iam-user-select-group.png)
 
-2.5\. Choose **Next: Review** to see all of the choices you made up to this point. When you are ready to proceed, choose **Create user**.
+2.5\. On the **Add Tags** page choose **Next: Review**.
+
+2.6\. On the **Review** page you will see all of the choices you made up to this point. When you are ready to proceed, choose **Create user**.
 
 ![IAM User Create](images/iam-user-create.png)
 
-2.6\. To save the credentials, choose **Download .csv** and then save the file to a safe location, and **Close**.
+2.7\. To save the credentials, choose **Download .csv** and then save the file to a safe location, and **Close**.
 
 ![IAM User Download](images/iam-user-download.png)
 
