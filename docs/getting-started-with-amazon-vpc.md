@@ -100,7 +100,7 @@
 
 ![Edit subnet associations](images/vpc-edit-subnets-assoc.png)
 
-2.15\. Select the subnets **10.1.0.0/24** (Public Subnet 01) and **10.1.1.0/24** (Public Subnet 02) and click on **Save**.
+2.15\. Select the subnets **10.0.0.0/24** (Public Subnet 01) and **10.0.1.0/24** (Public Subnet 02) and click on **Save**.
 
 ![Subnets for the Public Route](images/route-edit-subnets.png)
 
