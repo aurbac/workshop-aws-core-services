@@ -2,26 +2,23 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      python: 3.7
+      python: 3.8
     commands:
-      - pip install --upgrade pip
-      - pip install --upgrade awscli
-      - pip install mkdocs
-      - pip install mkdocs-material
-      - pip install pyembed-markdown
+      - apt-get update
+      - echo Installing hugo
+      - curl -L -o hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.70.0/hugo_0.70.0_Linux-64bit.deb
+      - dpkg -i hugo.deb
+      - hugo version
   pre_build:
     commands:
-      # Discover and run unit tests in the 'tests' directory
   build:
     commands:
       # Build
-      - mkdocs build
+      - hugo -v
   post_build:
     commands:
       # Post Build
-
 artifacts:
-  #type: zip
-  base-directory: 'site*'
+  base-directory: 'public'
   files:
     - '**/*'
