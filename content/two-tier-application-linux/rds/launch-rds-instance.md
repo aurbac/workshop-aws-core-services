@@ -12,7 +12,7 @@ Now that our VPC security group and subnet group are ready, let’s configure an
 
 ![RDS Create Database](images/rds-launch.png)
 
-3.3\. We will be using a **Standard Create** method, choose **MySQL** from the **Engine Options**, scroll down and in **Templates** section select **Free tier**.
+3.3\. We will be using a **Standard Create** method, choose **MySQL 5.7.x** from the **Engine Options**, scroll down and in **Templates** section select **Free tier**.
 
 ![RDS Engine](images/rds-engine-new.png)
 
@@ -31,7 +31,11 @@ Now that our VPC security group and subnet group are ready, let’s configure an
 
 ![RDS Additional](images/rds-additional-conf-new.png)
 
-3.7\. Scroll down and choose **Create database**. In the RDS Dashboard, monitor your new DB instance until the status changes from “**Creating**” to “**Backing-up**” to “**Available**”.
+3.7\. Scroll down and click on **Additional configuration**, for **Initial database name:** type `immersionday`.
+
+![RDS Additional](images/rds-addtional-configuration-name.png)
+
+3.8\. Scroll down and choose **Create database**. In the RDS Dashboard, monitor your new DB instance until the status changes from “**Creating**” to “**Backing-up**” to “**Available**”.
 
 {{% notice note %}}
 This may take up to 5 minutes as the database is being created and backed up, once is in **Available** status you can continue.
@@ -39,10 +43,10 @@ This may take up to 5 minutes as the database is being created and backed up, on
 
 ![RDS Status](images/rds-status.png)
 
-3.8\. Choose your database **awsdb**  
+3.9\. Choose your database **awsdb**  
 
 ![RDS List](images/rds-list.png)
 
-3.9\. From the **Connectivity & security** description, copy the **Endpoint** once is available, you will use it in the next section.
+3.10\. From the **Connectivity & security** description, copy the **Endpoint** once is available, you will use it in the next section.
 
 ![RDS Connectivity & security](images/rds-connectivity.png)
