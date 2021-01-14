@@ -5,4 +5,6 @@ weight = 6
 chapter = true
 pre = '<i class="fa fa-angle-right" aria-hidden="true"></i> '
 +++
+{{< youtube _I14_sXHO8U >}}
+
 [Amazon Simple Storage Service](https://aws.amazon.com/s3/) is storage for the Internet. It is designed to make web-scale computing easier for developers and also you can host a Static Website in an Amazon S3 bucket.
