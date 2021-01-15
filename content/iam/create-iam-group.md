@@ -3,6 +3,7 @@ title: "Create Iam Group"
 date: 2021-01-09T21:14:36Z
 draft: false
 weight: 90
+pre: '<b style="color:#fff;">1. </b>'
 ---
 An IAM group is a collection of users. Groups are often based on job function or role. They allow you to manage permissions by applying policies to each group rather than individual users.
 

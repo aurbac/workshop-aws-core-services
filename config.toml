@@ -3,7 +3,7 @@ CanonifyURLs=true
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "AWS Core Services"
+title = "Workshop - AWS Core Services"
 theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
@@ -16,7 +16,7 @@ pygmentsStyle = "monokai"
 googleAnalytics = "UA-55517703-2"
 
 [params]
-  description = "AWS Core Services"
+  description = "Workshop - AWS Core Services"
   author = "Uriel Ramirez"
   disableBreadcrumb = false
   disableNextPrev = false
@@ -46,6 +46,6 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "AWS Core Services"
+title = "Workshop - AWS Core Services"
 weight = 1
 languageName = "English"

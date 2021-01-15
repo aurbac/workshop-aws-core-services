@@ -3,6 +3,7 @@ title: "Create a Cloud9 instance to upload your static Website"
 date: 2021-01-09T21:48:50Z
 draft: false
 weight: 100
+pre: '<b style="color:#fff;">2. </b>'
 ---
 [AWS Cloud9](https://aws.amazon.com/cloud9/) is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It combines the rich code editing features of an IDE such as code completion, hinting, and step-through debugging, with access to a full Linux server for running and storing code.
 

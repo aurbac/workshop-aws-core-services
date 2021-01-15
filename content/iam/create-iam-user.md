@@ -3,6 +3,7 @@ title: "Create Iam User"
 date: 2021-01-09T21:15:03Z
 draft: false
 weight: 100
+pre: '<b style="color:#fff;">2. </b>'
 ---
 A user is associated with permanent credentials and has permissions based off of policies attached directly to the user or policies attached to a group to which the user belongs.
 

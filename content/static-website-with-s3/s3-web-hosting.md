@@ -3,6 +3,7 @@ title: "Configure the S3 bucket for static website hosting"
 date: 2021-01-09T21:49:25Z
 draft: false
 weight: 110
+pre: '<b style="color:#fff;">3. </b>'
 ---
 3.1\. Inside your Amazon S3 bucket, choose **Properties**.
 

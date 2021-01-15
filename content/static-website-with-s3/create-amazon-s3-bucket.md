@@ -3,6 +3,7 @@ title: "Create an Amazon S3 bucket"
 date: 2021-01-09T21:48:25Z
 draft: false
 weight: 90
+pre: '<b style="color:#fff;">1. </b>'
 ---
 1.1\. Open the Amazon S3 console at https://console.aws.amazon.com/s3/.
 

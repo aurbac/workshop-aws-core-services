@@ -10,4 +10,4 @@ See the diagram below for a depiction of the complete architecture.
 
 ## To start
 
-Visit the portal to get started: http://aws-core-services.ws.kabits.com
+Visit the portal to get started: https://aws-core-services.ws.kabits.com
