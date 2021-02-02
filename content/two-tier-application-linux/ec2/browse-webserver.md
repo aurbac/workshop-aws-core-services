@@ -9,8 +9,8 @@ pre: '<b style="color:#fff;">2.4 </b>'
 
 2.4.2\. In the **Description** of the EC2 instance you can find the Public DNS name, copy it and paste in a new browser tab and browse the Web Server by entering Public DNS name into the browser.
 
-![Public DNS](images/ec2-public-dns.png)
+![Public DNS](../images/ec2-public-dns.png)
 
 You should see a website that looks like the following:
 
-![Web Site](images/ec2-web.png)
+![Web Site](../images/ec2-web.png)

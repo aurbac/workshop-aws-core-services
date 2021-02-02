@@ -9,7 +9,7 @@ pre: '<b style="color:#fff;">1. </b>'
 
 1.2\. Choose **Create bucket**.
 
-![S3 Create](images/s3-create-bucket.png)
+![S3 Create](../images/s3-create-bucket.png)
 
 1.3\. In the **Bucket name** field, type a unique DNS-compliant name for your new bucket, for example `<your-name>-website`.
 
@@ -23,4 +23,4 @@ pre: '<b style="color:#fff;">1. </b>'
 
 1.6\. Validate the configurations, check **I acknowledge...**  and choose **Create bucket**.
 
-![S3 Create](images/s3-create.png)
+![S3 Create](../images/s3-create.png)

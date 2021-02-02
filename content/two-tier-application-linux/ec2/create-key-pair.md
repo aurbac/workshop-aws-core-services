@@ -13,11 +13,11 @@ With the following steps you will create a unique SSH keypair to connect to your
 
 2.1.3\. To create a new key pair, click the **Create Key Pair** button at the top of the browser window.
 
-![Key Pair](images/ec2-keypair.png)
+![Key Pair](../images/ec2-keypair.png)
 
 2.1.4\. For **Name** type `my-private-key`, for **File format** select **pem** and click **Create key pair**.
 
-![Key Pair](images/ec2-key-pair.png)
+![Key Pair](../images/ec2-key-pair.png)
 
 2.1.5\. The page will download the file ***my-private-key.pem** to the local drive. Follow the browser instructions to save the file to the default download location.
 

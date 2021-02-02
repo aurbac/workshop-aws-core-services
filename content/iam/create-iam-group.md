@@ -13,12 +13,12 @@ An IAM group is a collection of users. Groups are often based on job function or
 
 1.3\. In the **Group Name** box, type `Administrators` as the name of the group and then click **Next Step**.
 
-![IAM Group Name](images/iam-group-name.png)
+![IAM Group Name](../images/iam-group-name.png)
 
 1.4\. In the list of policies, select the check box for **AdministratorAccess** policy that you want to apply to all members of the group. Then click **Next Step**.
 
-![IAM Group Policy](images/iam-group-policy.png)
+![IAM Group Policy](../images/iam-group-policy.png)
 
 1.5\. Click **Create Group**.
 
-![IAM Group Create](images/iam-group-create.png)
+![IAM Group Create](../images/iam-group-create.png)

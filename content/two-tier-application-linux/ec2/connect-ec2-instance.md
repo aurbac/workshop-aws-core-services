@@ -12,14 +12,14 @@ Systems Manager Gain Operational Insight and Take Action on AWS Resources. We ar
 
 2.5.2\. From the menu on the left, scroll down and select **Session Manager**. Session Manager allows us to use IAM roles and policies to determine who has console access without having to manage SSH keys for our instances. In the main pane, click the **Start session** button. 
 
-![Session Manager](images/sm-home.png)
+![Session Manager](../images/sm-home.png)
 
 2.5.3\. Select the radio button next to the instance you wish to log into.
 
-![Session Start](images/sm-start.png)
+![Session Start](../images/sm-start.png)
 
 2.5.4\. You will now receive a Bash shell prompt for that instance.
 
-![Session Bash](images/sm-bash.png)
+![Session Bash](../images/sm-bash.png)
 
 **Great Job! You have deployed a server and launched a web site in a matter of minutes!!**

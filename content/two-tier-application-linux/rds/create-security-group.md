@@ -13,11 +13,11 @@ pre: '<b style="color:#fff;">3.1 </b>'
 
 3.1.4\. For the **Security group name** and **Description** type `immersion-day-db`. For **VPC** select your VPC ID **My VPC**, and choose **Create security group**.
 
-![RDS Create SG](images/vpc-sg-db.png)
+![RDS Create SG](../images/vpc-sg-db.png)
 
 3.1.5\. For you security group **immersion-day-db**, choose **Edit inbound rules**.
 
-![RDS Select SG](images/rds-select-sg.png)
+![RDS Select SG](../images/rds-select-sg.png)
 
 3.1.6\. In the dialog, choose **Add Rule**, add the following rules and Choose **Save rules**:
 
@@ -26,4 +26,4 @@ pre: '<b style="color:#fff;">3.1 </b>'
 * **Port Range:** `3306`
 * **Source:** `Custom sg-XXXXXXX` Type `sg-` and select the security group ID for **Web Tier**
 
-![RDS SG](images/rds-sg-create.png)
+![RDS SG](../images/rds-sg-create.png)

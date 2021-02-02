@@ -11,12 +11,12 @@ pre: '<b style="color:#fff;">1.1 </b>'
 
 1.1.3\. Choose **Allocate Elastic IP address**.
 
-![EC2 Elastic IP](images/ec2-eip.png)
+![EC2 Elastic IP](../images/ec2-eip.png)
 
 1.1.4\. Use the **Amazon's pool of IPv4 addresses** and Choose **Allocate**.
 
-![EC2 Elastic IP](images/ec2-eip-allocate.png)
+![EC2 Elastic IP](../images/ec2-eip-allocate.png)
 
 1.1.5\. Note the **Allocation ID** for your newly created Elastic IP address; you enter this later in the VPC wizard.
 
-![EC2 Elastic IP](images/ec2-my-ip.png)
+![EC2 Elastic IP](../images/ec2-my-ip.png)

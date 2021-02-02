@@ -11,15 +11,15 @@ We are going to create an IAM role and attach it to an instance during or after 
 
 2.2.2\. In the navigation pane, choose **Roles** and then choose **Create role**.
 
-![IAM Create Role](images/iam-create-role.png)
+![IAM Create Role](../images/iam-create-role.png)
 
 2.2.3\. Choose **EC2** from the list of services, then **Next: Permissions**.
 
-![IAM Role Name](images/iam-role-name.png)
+![IAM Role Name](../images/iam-role-name.png)
 
 2.2.4\. For **attach permissions policies** filter by typing **AmazonEC2RoleforSSM** and from the list select **AmazonEC2RoleforSSM**, choose **Next: Tags**.
 
-![IAM Role Permissions](images/iam-role-permission.png)
+![IAM Role Permissions](../images/iam-role-permission.png)
 
 2.2.5. For Add tags choose **Next: Review**.
 
